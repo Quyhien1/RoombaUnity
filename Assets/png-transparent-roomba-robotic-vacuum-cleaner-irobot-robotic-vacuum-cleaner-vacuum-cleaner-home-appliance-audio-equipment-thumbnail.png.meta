@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 8c30dbf90a32e6d42ba3a054f1fe84c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3695141587948702451
+    second: png-transparent-roomba-robotic-vacuum-cleaner-irobot-robotic-vacuum-cleaner-vacuum-cleaner-home-appliance-audio-equipment-thumbnail_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 3
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 34, y: 34, z: 34, w: 34}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: png-transparent-roomba-robotic-vacuum-cleaner-irobot-robotic-vacuum-cleaner-vacuum-cleaner-home-appliance-audio-equipment-thumbnail_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa847052b7c74330800000000000000
+      internalID: 3695141587948702451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 0, y: 145.5}
+      - {x: -28.385643, y: 142.70425}
+      - {x: -55.680443, y: 134.42447}
+      - {x: -80.83547, y: 120.97883}
+      - {x: -102.88403, y: 102.88403}
+      - {x: -120.978836, y: 80.835464}
+      - {x: -134.42447, y: 55.68044}
+      - {x: -142.70425, y: 28.385647}
+      - {x: -145.5, y: 0.000010984944}
+      - {x: -142.70427, y: -28.385624}
+      - {x: -134.42447, y: -55.680416}
+      - {x: -120.978836, y: -80.835464}
+      - {x: -102.88403, y: -102.88403}
+      - {x: -80.835464, y: -120.978836}
+      - {x: -55.680416, y: -134.42448}
+      - {x: -28.385607, y: -142.70427}
+      - {x: 0.000047409918, y: -145.5}
+      - {x: 28.3857, y: -142.70424}
+      - {x: 55.680504, y: -134.42444}
+      - {x: 80.83554, y: -120.97878}
+      - {x: 102.8841, y: -102.88397}
+      - {x: 120.97889, y: -80.83538}
+      - {x: 134.42451, y: -55.68033}
+      - {x: 142.70428, y: -28.385517}
+      - {x: 145.5, y: 0.00014049468}
+      - {x: 142.70422, y: 28.385792}
+      - {x: 134.42441, y: 55.68059}
+      - {x: 120.97873, y: 80.83562}
+      - {x: 102.8839, y: 102.88416}
+      - {x: 80.835304, y: 120.978935}
+      - {x: 55.680244, y: 134.42456}
+      - {x: 28.385424, y: 142.7043}
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      png-transparent-roomba-robotic-vacuum-cleaner-irobot-robotic-vacuum-cleaner-vacuum-cleaner-home-appliance-audio-equipment-thumbnail_0: 3695141587948702451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
