@@ -16,8 +16,8 @@ public class RoombaMover : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
         rb.linearDamping = 0f;
-        // A high angular damping helps prevent unintended spinning from physics interactions
-        rb.angularDamping = 10f;
+        // No angular damping to allow free rotation
+        rb.angularDamping = 0f;
         PickInitialDirection();
     }
 
@@ -60,10 +60,28 @@ public class RoombaMover : MonoBehaviour
         // 2. Turn the Head Slowly
         float elapsedTime = 0f;
         Quaternion startRotation = transform.rotation;
-
+        
+        // Get current angle (before collision)
+        float currentAngle = transform.rotation.eulerAngles.z;
+        
         // Calculate the target angle for the new direction.
         // We subtract 90 degrees because a sprite's "forward" is typically its 'up' vector (y-axis).
-        float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        float reflectAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        
+        // Add a small random angle variation to prevent getting stuck in corners
+        reflectAngle += Random.Range(-20f, 20f);
+        
+        // Normalize angles to -180 to 180 range for proper comparison
+        currentAngle = (currentAngle > 180) ? currentAngle - 360 : currentAngle;
+        reflectAngle = (reflectAngle > 180) ? reflectAngle - 360 : reflectAngle;
+        
+        // Calculate angle difference and clamp it to max 150 degrees (increased from 90)
+        float angleDifference = Mathf.DeltaAngle(currentAngle, reflectAngle);
+        float clampedDifference = Mathf.Clamp(angleDifference, -150f, 150f);
+        
+        // Apply the clamped angle difference to current angle
+        float targetAngle = currentAngle + clampedDifference;
+        
         Quaternion targetRotation = Quaternion.Euler(0, 0, targetAngle);
 
         // This loop will execute over multiple frames, smoothly rotating the object
